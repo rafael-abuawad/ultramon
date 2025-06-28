@@ -1,0 +1,11 @@
+name: ultramon
+
+plugins:
+  - name: solidity
+  - name: optimism
+  - name: etherscan
+
+dependencies:
+  - name: openzeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 5.0.2
