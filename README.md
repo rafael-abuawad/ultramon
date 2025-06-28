@@ -56,8 +56,13 @@ struct Ultramon {
    ```bash
    uv sync
    ```
+    
+3. **Instala los plguins de Apeworx**
+   ```bash
+   uv run ape plugins install .
+   ```
 
-3. **Verificar instalación**
+4. **Verificar instalación**
    ```bash
    ape --version
    ```
